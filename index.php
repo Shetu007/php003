@@ -26,7 +26,7 @@ $phone =$_POST['phone'];
 $desc =$_POST['desc'];
 
 
-$sql="INSERT INTO `trip`.`us` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('02', 'TEST 02', '24', 'male', 'knowshetu008@gmail.com', '017872087732', 'this is my 2nd table', '2022-04-20 15:10:14.000000')";
+$sql="INSERT INTO `trip`.`us` (`sno`, `name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', '2022-04-20 15:10:14.000000')";
 
 //echo $sql;
 
